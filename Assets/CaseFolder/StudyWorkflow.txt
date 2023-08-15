@@ -26,7 +26,7 @@ Creative sahnesinde ihtiyacım olan farklı bir animasyon daha olacuğundan kad�
  
 Dördüncü gün sabahtan ihtiyacım olan animasyonları mixamodan bulup editleyerek sahnelerime uydurdum. Zaten blendshapelerini hazırladığım için animasyonları editlemek o kadar zamanımı almadı. sonra içeri spline koyup karakterlerin animasyonlarını spline'a oturttum.
  
-eksik olan tek şey particledı. elimde zaten var olan büyük bir particle paketinden istediğime en yakın particleları seçip en iyi hissiyatı vermesi için bir süre editlemem gerekti.
+Eksik olan tek şey particledı. elimde zaten var olan büyük bir particle paketinden istediğime en yakın particleları seçip en iyi hissiyatı vermesi için bir süre editlemem gerekti.
  
 Daha bu yuzıyı yazacağımı da hesaplayarak sahneleri finalize ettim. 
 Benim için keyifli ve öğretici bir süreç oldu
