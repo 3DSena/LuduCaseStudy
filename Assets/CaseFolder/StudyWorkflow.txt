@@ -1,0 +1,42 @@
+merhaba 
+
+Case'i okuduktan sonra bir süre yapılacak oyun üzerine düşünme fırsatım oldu.
+Eğer bu oyunu tek başıma yapsaydım arkasında sevimli ve kısa bir hikayeye oturtmak isteyeceğime karar verdim. 
+ 
+Öncelikle küçük bir çocuk annesinden neden kaçmak ister diye düşündüm ve kafamda iki sahne belirdi. 
+Biri elinde brokoliyle çocuğunun arkasından koşan bir anne diğeriyse banyo yapmamak için oradan oraya koşturan bir çocuk. 
+Tabi ki oyun bir annenin çocuğunn arkasından koşmaktan ibaret olmayacağını, eğer launc olursa hikayenin derinleşmesi gerekeceğini bildiğimden hikayeyi bebeğin gözünden izlemenin daha doğru olacağını düşündüm.
+Bu yüzden bebeğin kaçması için mantıklı bir sebep olmalıydı. 
+Küçükken arkadaşlarımla yan yanayken oynadığım her oyunda hayal dünyamda geliştirdiğim ortamı sanki gerçekmiş gibi davrandığımdan dramatik olmanın ne demek olduğunu çok iyi biliyorum ahahhah.
+Bu yüzden bebeğin kafasında küvet ve banyo daha korkutucu hale getirilebilirdi. bu sayede kaçmak için bir sebebimiz olur ama tabi ki sorun sabit olarak banyo değil annesinin banyodaki hayali hali olmalı. bu yüzden bir de creative sahnesi yapmaya,
+İnsanları oyuna çekmek için dramatik ve ilgi çekici bir sahne daha kurmaya karar verdim. 
+
+Dört gün iki karakter ve bir environment için kısa bir süreydi bu yüzden kendime doğru çalışacak bir plan yapmam gerekiyordu. 
+En zordan en kolaya doğru sıraladığımda daha önce hiç yapmadıpım bebek modeliyle başlamaya karar verdim.
+Kendime bir referans olması için birkaç model inceleyip modeli yapmaya başladım.
+
+Düşündüğümden daha kısa sürdüğü için aynı gün blandshape ve rigrini hazırlayıp projeye aldım. Malesef mixamoda bebekler için animasyon olmadığından ve daha önce bebek animasyonu yapmadığımdan bir bebeğin gündelik hayatta hangi pozlardan geçtiğini incelemek ve sıfırdan bütün animasyonları hazırlamak ikinci günümü aldı. aslında kafamda birkaç farklı sahne daha olduğu için extra animasyonlar hazırlamıştım fakat onlara zamanım kalmadığı için proje boyutunu düşürmeyi tercih edip kaldırdım. dilerseniz diğer animasyonları da pushlayabilirim. 
+
+Bebeği projeye aldıktan sonra sahnenin ışık ayarlayalarını ve karakterin mataryelini görmek isteyebileceğim iki farklı stilde ayarlayıp environmet modellerini yapmaya başladım. Modelleri yapmak uv, ve texture hazırlamak sonrasında sahneyi editleyebilmek adına prefabları hazırlamak ve bebekle kontrast yaracak ortamı sağlamak ikinci günümü komple aldı hatta üçüncü günde hala sahne ışık ayarlarıyla boğuşuyordum
+
+İkinci karakter için önceden hazırladığım bir kadın modelini kullanmayı tercih ettim. Tabi ki poligonunu azaltmam ve texture için tekrar bir painting yapmam gerekiyordu bu yüzden uv açma ve texture işlemleriyle birlikte blendshape ve rig ekleyip projeye entegre ettim. Annenin hem ortamdan ayrışması hem de uyum sağlaması içinn birkaç farklı texture denemem gerekti. 
+
+Üçüncü günün akşamında model olarak ihtiyacım olan her şey tamamdı geriye annenin animasyonunu bulmak, spesifik bir animasyon olacağı için editlemek ve spline ile hareket ettirmek kalmıştı. 
+Creative sahnesinde ihtiyacım olan farklı bir animasyon daha olacuğundan kadının animasyonunu sona bırakıp creative sahnesinin ışıklandırması ve postprossesing sürecine başladım aynı gün. Yaklaşık dört beş saatimi creative için harcadıktan sonra oluşturduğum ortam içime sindiğinde kadının animasyonlarına başlayabilir duruma gelmiştim.
+ 
+Dördüncü gün sabahtan ihtiyacım olan animasyonları mixamodan bulup editleyerek sahnelerime uydurdum. Zaten blendshapelerini hazırladığım için animasyonları editlemek o kadar zamanımı almadı. sonra içeri spline koyup karakterlerin animasyonlarını spline'a oturttum.
+ 
+eksik olan tek şey particledı. elimde zaten var olan büyük bir particle paketinden istediğime en yakın particleları seçip en iyi hissiyatı vermesi için bir süre editlemem gerekti.
+ 
+Daha bu yuzıyı yazacağımı da hesaplayarak sahneleri finalize ettim. 
+Benim için keyifli ve öğretici bir süreç oldu
+Umarım sizin için de incelemesi keyifli olur 
+
+Not: içeride assetsin içinde case folderın altında bütün dosyalarım
+
+Scenes dosyasında bulunan "CartoonStylGameScene" ve "caseSceene" verilen maksimum tris kapasitesine uygun olark, fps i 60 ın altına inmeyecek şekilde hazırladım. 
+"Creative" sahnesi zaten oyun içi görsel olmayacağından alınacak reklam renderlarında prüzsüz çalışması için sadece fps i göz önünde bulundurarak ilerledim. ortalama 200 fps creative için oldukçe yeterliydi. 
+
+Bebek modeli 5k, annenin modeli 18k ve environment toplam 17k ham tris olmakla birlikte;
+sahnedeki ışık ve materyal ayarlarıyla birlikte case scene'de toplamda  94k tris bulunmakta. 
+  
