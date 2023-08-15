@@ -37,6 +37,8 @@ Not: içeride assetsin içinde case folderın altında bütün dosyalarım
 Scenes dosyasında bulunan "CartoonStylGameScene" ve "caseSceene" verilen maksimum tris kapasitesine uygun olark, fps i 60 ın altına inmeyecek şekilde hazırladım. 
 "Creative" sahnesi zaten oyun içi görsel olmayacağından alınacak reklam renderlarında prüzsüz çalışması için sadece fps i göz önünde bulundurarak ilerledim. ortalama 200 fps creative için oldukçe yeterliydi. 
 
+Sahneleri 1920 x 1080 de çalıştım
+
 Bebek modeli 5k, annenin modeli 18k ve environment toplam 17k ham tris olmakla birlikte;
 sahnedeki ışık ve materyal ayarlarıyla birlikte case scene'de toplamda  94k tris bulunmakta. 
   
