@@ -4821,6 +4821,11 @@ PrefabInstance:
       propertyPath: InitialModule.startColor.maxColor.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3600916860333734381, guid: c29705bbff7008f46943f50e9d1db692,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.4
+      objectReference: {fileID: 0}
     - target: {fileID: 3600916860334008513, guid: c29705bbff7008f46943f50e9d1db692,
         type: 3}
       propertyPath: m_StaticEditorFlags
